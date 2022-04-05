@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.Box{
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    background: #08bdd4;
+    height: 420px;
+    width: 700px;
+}
+.SubBox{
+    box-sizing: border-box;
+    display: flex;
+    background: #ffffff;
+    height: 100px;
+    width: 310px;
+    border-radius: 5px;
+}
+.SubSubBox1{
+    height: 100%;
+    width: 30%;
+}
+.SubSubBox2 {
+    height: 100%;
+    width: 70%;
+}
+.TextBox1{
+    height: 15%;
+    width: 100%;
+}
+.TextBox2{
+    height: 75%;
+    width: 100%;
+}
+p{
+    font-size: 10px;
+    color: #aca7a7;
+}
+p1 {
+    display: flex;
+    margin-top: 15px;
+    color: #e88d17;
+}
+.fa-solid {
+    font-size: 35px;
+    color: #aca7a7;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fa-brands{
+    font-size: 35px;
+    color: #aca7a7;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+

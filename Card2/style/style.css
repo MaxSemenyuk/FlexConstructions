@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.Box{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+}
+.SubBox{
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid gainsboro;
+    margin: 10px;
+    height: 200px;
+    width: 15%;
+}
+.SmallBox{
+    background: #85eeee;
+    width: 90px;
+    height: 25px;
+    font-size: 11px;
+}
+.SubSubBox3{
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+}
+.fa-solid{
+    color: #cecaca;
+    font-size: 18px;
+    line-height: 3;
+}
+p{
+    margin-bottom: 5px;
+    color: #e88d17;
+}
+p1{
+    padding-top: 5px;
+    display: flex;
+    font-size: 11px;
+    flex-direction: column;
+}

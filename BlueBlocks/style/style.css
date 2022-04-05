@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.Box{
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 800px;
+    background: white;
+    flex-direction: column;
+}
+.SubBox1{
+    background: #246abc;
+    width: 500px;
+    height: 200px;
+}
+.SubBox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #ffffff;
+    width: 500px;
+    height: 200px;
+}
+.SubBox3{
+    background: #246abc;
+    width: 500px;
+    height: 400px;
+}
+.SubSubBox{
+    background: #18467b;
+    width: 30%;
+    height: 85%;
+}
+p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+p1{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+p3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+}
